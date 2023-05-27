@@ -1,6 +1,7 @@
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+// Implementation of the Account interface
 public class AccountImpl extends UnicastRemoteObject implements Account {
   private double balance;
 

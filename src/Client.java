@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Client {
   public static void main(String[] args) {
     try {
+      // Get the remote object from the registry
       Account account = (Account) Naming.lookup("rmi://localhost/ContaBancaria");
 
       Scanner scanner = new Scanner(System.in);
