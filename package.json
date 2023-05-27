@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "compile": "javac ./src/*.java -d ./bin",
+    "start:server": "cd ./bin && java Server",
+    "start:client": "cd ./bin && java Client"
+  }
+}
