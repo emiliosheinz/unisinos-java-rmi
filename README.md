@@ -32,7 +32,3 @@ yarn start:client
 or
 npm run start:client
 ```
-
-## :man: Contributors
-- [@emiliosheinz](https://github.com/emiliosheinz)
-
